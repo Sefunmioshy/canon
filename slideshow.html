@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>SlideShow</title>
+    <link rel="stylesheet" href="css/slideshow.css"/>
+    <script src="js/slideshow.js"></script>
+</head>
+<body>
+	<div
+	  class="fb-like"
+	  data-share="true"
+	  data-width="450"
+	  data-show-faces="true">
+	</div>
+
+	<fb:login-button scope="public_profile,email,user_photos,user_posts" onlogin="checkLoginState();"> </fb:login-button>
+
+	<div id="graph_div">
+        <canvas id="graph_canvas" height="700" width="700">
+
+        </canvas>
+    </div> 
+
+</body>
+</html>
